@@ -31,4 +31,7 @@ jobs:
       - name: Terraform plan to see blue print
         run: terraform plan
 
+      - name: Terraform Apply to execute chnages
+        run: terraform apply -auto-approve
+
       
